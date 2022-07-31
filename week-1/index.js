@@ -55,7 +55,12 @@ console.log(people3);
 const arrayAdd = require('array-add-num');
 console.log("Sum of Array is " +  arrayAdd([5,4,3,8]));
 
-//??//
+const packageJson = require('./package.json');
+console.log(packageJson.dependencies);
+
+
+
+
 
 //Task5
 var multiplyNums = function(x, y, z){
